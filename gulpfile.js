@@ -7,7 +7,8 @@ gulp.task('sass', function () {
   return gulp.src('./src/scss/**/*.scss')
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(notify({title: "SASS", message: "SASS Compiled! (<%= file.relative %>)", timeout: 2}))
-    .pipe(gulp.dest('./src/css'));
+    .pipe(gulp.dest('./src/css'))
+    .pipe(browserSync.stream());
 });
 
 gulp.task('default', function() {
