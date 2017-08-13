@@ -1,0 +1,26 @@
+{
+  "name": "iris",
+  "version": "1.0.0",
+  "description": "Salong Iris",
+  "main": "index.php",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aanndryyyy/iris.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Andry Pedak",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aanndryyyy/iris/issues"
+  },
+  "homepage": "https://github.com/aanndryyyy/iris#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
