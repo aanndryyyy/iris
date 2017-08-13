@@ -1,6 +1,7 @@
-var gulp = require('gulp');
-var sass = require('gulp-sass');
-var notify = require("gulp-notify");
+var gulp          = require('gulp');
+var sass          = require('gulp-sass');
+var notify        = require("gulp-notify");
+var browserSync   = require('browser-sync').create();
 
 gulp.task('sass', function () {
   return gulp.src('./src/scss/**/*.scss')
@@ -10,6 +11,12 @@ gulp.task('sass', function () {
 });
 
 gulp.task('default', function() {
+  browserSync.init({
+    proxy: 'iris.dev',
+    notify: false,
+    open: false
+  });
 
   gulp.watch('./src/scss/**/*.scss', ['sass']);
+  gulp.watch("**/*").on('change', browserSync.reload);
 });
