@@ -19,6 +19,6 @@
   <meta name="google" content="notranslate">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="src/css/main.css">
 </head>
 <body>
