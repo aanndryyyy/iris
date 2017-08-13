@@ -1,6 +1,8 @@
 $main:  #fff;
 $text:  #000;
 
+@import "reset";
+
 body {
   background-color: $main;
 }
