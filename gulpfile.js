@@ -8,7 +8,7 @@ gulp.task('sass', function () {
     .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
     .pipe(notify({title: "SASS", message: "SASS Compiled! (<%= file.relative %>)", timeout: 2}))
     .pipe(gulp.dest('./src/css'))
-    .pipe(browserSync.stream());
+    .pipe(browserSync.reload({ stream:true }));
 });
 
 gulp.task('default', function() {
@@ -19,5 +19,5 @@ gulp.task('default', function() {
   });
 
   gulp.watch('./src/scss/**/*.scss', ['sass']);
-  gulp.watch("**/*").on('change', browserSync.reload);
+  gulp.watch("**/*.php").on('change', browserSync.reload);
 });
