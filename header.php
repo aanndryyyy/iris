@@ -19,6 +19,6 @@
   <meta name="google" content="notranslate">
 
   <!-- Stylesheets -->
-  <link rel="stylesheet" href="<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>src/css/main.css">
+  <link rel="stylesheet" href="<?php echo 'http://'. $_SERVER['SERVER_NAME']; ?>/src/css/main.css">
 </head>
 <body>

@@ -14,5 +14,5 @@
     </nav>
   </div>
 
-  <div class="background" style="background-image: url(<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>src/img/header.jpg);"></div>
+  <div class="background" style="background-image: url(<?php echo 'http://'. $_SERVER['SERVER_NAME']; ?>/src/img/header.jpg);"></div>
 </header>
