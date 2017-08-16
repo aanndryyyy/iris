@@ -13,7 +13,7 @@
       </ul>
     </nav>
 
-    <p>Salong Iris pakub kõiki lõikus- ja värvitehnikaid ning<br>me aitame leida Teile just selle õige.</p>
+    <p>Salong Iris pakub kõiki lõikus- ja värvitehnikaid ning me aitame leida Teile just selle õige.</p>
   </div>
 
   <ul class="contact">
@@ -22,5 +22,5 @@
     <li><a href="mailto:info@salongiris.ee">info@salongiris.ee</a></li>
   </ul>
 
-  <div class="background" style="background-image: url(src/img/header.jpg);"></div>
+  <div class="background" style="background-image: url(<?php echo 'http://'. $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>src/img/header.jpg);"></div>
 </header>
