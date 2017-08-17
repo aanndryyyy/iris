@@ -28,3 +28,16 @@ body {
 
   height: 100vh;
 }
+
+#page {
+  margin-top: 50px;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+
+  @media (max-width: 959px) {
+    width: 90%;
+  }
+}
