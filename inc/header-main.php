@@ -22,5 +22,5 @@
     <li><a href="mailto:info@salongiris.ee">info@salongiris.ee</a></li>
   </ul>
 
-  <div class="background" style="background-image: url(<?php echo 'http://'. $_SERVER['SERVER_NAME']; ?>src/img/header.jpg);"></div>
+  <div class="background" style="background-image: url(<?php echo 'http://'. $_SERVER['SERVER_NAME']; ?>/src/img/header.jpg);"></div>
 </header>
