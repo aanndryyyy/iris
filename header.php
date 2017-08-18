@@ -8,7 +8,7 @@
   <title>Salong Iris</title>
 
   <!-- Description (150 characters) -->
-  <meta name="description" content="A description of the page">
+  <meta name="description" content="Salong Iris pakub kõiki lõikus- ja värvitehnikaid ning me aitame leida Teile just selle õige.">
 
   <!-- Base URL -->
   <base href="http://iris.dev/index.php">
